@@ -1,1 +1,1 @@
-[1,2].map(n=>n+1)
+function add(first, second){return first+second}
