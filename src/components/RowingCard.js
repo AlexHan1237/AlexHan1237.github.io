@@ -9,11 +9,14 @@ import Typography from '@mui/material/Typography';
 export default function RowingCard() {
   return (
     <Card sx={{ minWidth: 300, maxWidth: 355 }}>
-      <CardMedia
+      {/* <CardMedia
         sx={{ height: 140 }}
-        image="/img/alex.jpg"
-        title="green iguana"
-      />
+        component='video'
+        image={"/resources/Rowing.mp4"}
+        title="My Rowing"
+        autoPlay
+      /> */}
+      <CardMedia sx={{ height: 200 }} component="iframe" src="/resources/Rowing.mp4" allow="autoPlay"/>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           My Rowing
