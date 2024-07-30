@@ -10,13 +10,13 @@ export default function RoboticsCard() {
   return (
     <Card sx={{ minWidth: 300, maxWidth: 355 }}>
       <CardMedia
-        sx={{ height: 140 }}
-        image="/img/alex.jpg"
-        title="green iguana"
+        sx={{ height: 200 }}
+        image="/img/alex_robotics.png"
+        title="My Robotics"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          My Robotics Activities
+          My Robotics
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lizards are a widespread group of squamate reptiles, with over 6,000
