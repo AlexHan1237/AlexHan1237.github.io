@@ -10,9 +10,9 @@ export default function CollegeCard() {
   return (
     <Card sx={{ minWidth: 300, maxWidth: 355 }}>
       <CardMedia
-        sx={{ height: 140 }}
-        image="/img/alex.jpg"
-        title="green iguana"
+        sx={{ height: 200 }}
+        image="/img/alex_college.png"
+        title="My College Dream"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
