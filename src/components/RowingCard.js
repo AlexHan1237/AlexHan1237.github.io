@@ -19,7 +19,7 @@ export default function RowingCard() {
       <CardMedia sx={{ height: 200 }} component="iframe" src="/resources/Rowing.mp4" allow="autoPlay"/>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          My Rowing
+          Rowing
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lizards are a widespread group of squamate reptiles, with over 6,000

@@ -12,11 +12,11 @@ export default function CommunityCard() {
       <CardMedia
         sx={{ height: 200 }}
         image="/img/alex_volunteer.png"
-        title="My Community Service"
+        title="Community Service"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          My Community Service
+          Community Service
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Lizards are a widespread group of squamate reptiles, with over 6,000
